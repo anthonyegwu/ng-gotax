@@ -4,11 +4,10 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## How to use
 
-Impirt the module to your Module:
+Import the module to your Module and provide the service urls:
 
 ```
 import {GotaxModule} from "gotax"
-
 
 @NgModule({
 
@@ -36,8 +35,7 @@ export class SomeClass(){
 
     }
 
-
-    someService(){
+    someFunction(){
         authservice.login(userName, password);
     }
 }
