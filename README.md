@@ -13,9 +13,9 @@ import {GotaxModule} from "gotax"
 
   imports: [
       GotaxModule.forRoot(
-        userServiceUrl = 'https://someurl.com/';
-        organizationServiceUrl = 'https://someurl.com/';
-        servieServiceUrl = 'https://someurl.com/';
+        userServiceUrl : 'https://someurl.com/';
+        organizationServiceUrl : 'https://someurl.com/';
+        servieServiceUrl : 'https://someurl.com/';
     )
   ],
 
